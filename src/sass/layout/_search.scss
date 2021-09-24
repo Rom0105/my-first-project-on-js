@@ -4,7 +4,6 @@
   width: 270px;
   height: 40px;
 
-  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px);
 
   border-radius: 20px;
@@ -23,6 +22,15 @@
   &:hover,
   &:focus {
     border-style: none;
+    border: 1px solid #dc56c5;
+  }
+}
+
+.color-input {
+  background-color: rgba(255, 255, 255, 0.2);
+  &:hover,
+  &:focus {
+    border: 1px solid #dc56c5;
   }
 }
 
@@ -32,7 +40,6 @@
 }
 
 .dropdown {
-  background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px);
   font-family: Montserrat;
   font-weight: normal;
@@ -43,6 +50,16 @@
 
 select {
   color: rgba(255, 255, 255, 0.2);
+  width: 268px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 5px;
+  height: 34px;
+  background: url(/images/polygon.svg) no-repeat right rgba(255, 255, 255, 0.2);
+  -webkit-appearance: none;
+  background-position-x: 230px;
 }
 
 select > option {
