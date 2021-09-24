@@ -31,9 +31,7 @@ body {
     grid-row-gap: 40px;
 
     position: relative;
-    // bottom: 50px;
     margin-bottom: 60px;
-    // max-height: 2900px;
 
     justify-content: center;
     padding-left: 25px;
@@ -75,10 +73,6 @@ body {
     50% {
       transform: scale(90deg);
     }
-
-    //   0% {
-    //     transform: rotate(0);
-    //   }
   }
 
   .text-title {
@@ -131,10 +125,6 @@ body {
     cursor: pointer;
   }
 
-  .container-list {
-    // bottom: 30px;
-    // min-height: 2750px;
-  }
   .container-before::before {
     content: '';
     position: absolute;
@@ -183,7 +173,6 @@ body {
     margin-bottom: 80px;
 
     justify-content: center;
-    // min-height: 1750px;
   }
 }
 

@@ -83,16 +83,8 @@
   color: #dc56c5;
 }
 
-// .backdrop.is-hidden {
-//   opacity: 0;
-//   // visibility: hidden;
-//   pointer-events: none;
-//   transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
-
 .modal_team-container {
   opacity: 0;
-  // visibility: hidden;
   pointer-events: none;
   transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
